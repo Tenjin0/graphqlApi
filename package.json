@@ -1,0 +1,30 @@
+{
+  "name": "graphqhapi",
+  "version": "1.0.0",
+  "description": "a simple node implementation of graphql",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "pm2 start ecosystem.config.js --env development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tenjin0/graphqlApi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tenjin0/graphqlApi/issues"
+  },
+  "homepage": "https://github.com/Tenjin0/graphqlApi#readme",
+  "dependencies": {
+    "casual": "^1.5.17",
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.3",
+    "graphql-tools": "^1.2.2",
+    "lodash": "^4.17.4",
+    "sequelize": "^4.8.2",
+    "sqlite3": "^3.1.10"
+  }
+}
